@@ -1,0 +1,251 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="site-nav grid">
+        <h1>Ed Chebli</h1>
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#portfolio">Portfolio </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#skills">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section id="welcome" class="grid">
+      <div class="welcome-text">
+        <h2>Visual Enthusiast<br />& Front Web Developer</h2>
+        <p class="leading">
+          I am a front-end Web developer. I have a passion for creating and designing beautiful and
+          functional websites. I am constantly learning web development and am looking forward to
+          learning more about it. I keep myself up to date. Please feel free to contact me if you
+          have any questions.
+        </p>
+        <a class="button">View my resume</a>
+      </div>
+      <div class="welcome-img">
+        <img class="programmer" src="assets/programmer.svg" alt="Programmer Picture " />
+      </div>
+    </section>
+    <section id="portfolio">
+      <h3>Some of my Projects</h3>
+      <div class="projects grid">
+        <a href="https://github.com/Soliperso/bamazon-app" target="_blank">
+          <img class="img-projects" src="assets/bamazon.jpg" alt="bAmazon image" />
+          <h4>bAmazon</h4>
+        </a>
+        <a href="https://github.com/Soliperso/LIRI-Bot" target="_blank">
+          <img class="img-projects" src="assets/liri-bot.jpg" alt="Liri bot image" />
+          <h4>LiriBot</h4>
+        </a>
+        <a href="https://github.com/Soliperso/TrainSchedule" target="_blank">
+          <img class="img-projects" src="assets/TrainSchedule.png" alt="Train Scheduler image" />
+          <h4>Train Scheduler</h4>
+        </a>
+      </div>
+    </section>
+    <section id="skills">
+      <h3>Things I Can Do</h3>
+      <ul class="grid">
+        <li>
+          <ion-icon name="logo-html5"></ion-icon>
+          <h4>HTML</h4>
+        </li>
+        <li>
+          <ion-icon name="logo-css3"></ion-icon>
+          <h4>CSS</h4>
+        </li>
+        <li>
+          <ion-icon name="logo-javascript"></ion-icon>
+          <h4>JavaScript</h4>
+        </li>
+        <li>
+          <ion-icon name="logo-react"></ion-icon>
+          <h4>React</h4>
+        </li>
+      </ul>
+
+      <p class="leading">
+        Above are some of the technologies I am familiar with and I can use to create stunning websites.
+      </p>
+    </section>
+    <section id="contact">
+      <h3>Let's Get In Touch</h3>
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <div class="email">
+            <h3>Email</h3>
+            <a href="mailto:chah762002@yahoo.fr"><ion-icon name="mail-sharp"></ion-icon></a>
+          </div>
+          <div class="phone">
+            <h3>Phone</h3>
+            <a href="tel:+5104597608"><ion-icon name="call-sharp"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <div class="resume-content">
+        <section>
+          <h1 class="name">Ahmed Chebli</h1>
+          <p>
+            Full Stack Web Developer, currently focusing on frontend development building clean,
+            modern and responsive websites. Seeking a position where I can utilize my skills and
+            experience to create a unique and impactful web applications that is visually appealing
+            and functional, collaborating with other developers and designers. I am a quick learner
+            and enjoy working with others to create a website that is user friendly and easy to
+            navigate.
+          </p>
+          <br /><br />
+
+          <h4>Work Experience</h4>
+          <p><strong>Axxerion, Inc</strong>, San Rafael</p>
+          <p class="date"><em>February 2021 - November 2021</em></p>
+         <p class="education-para"> 
+          I worked as an implementation specialist for the Axxerion team. I was responsible for the
+          implementation of the Axxerion platform to fit the customers needs. 
+          I built and maintained several web applications for clients. I was responsible for the frontend and
+          backend development, and the design of the applications.</p>
+          <br />
+
+          <p><strong>Freelance</strong></p>
+          <p class="date"><em>December 2019 - January 2021</em></p>
+          <p>I built several websites for small family businesses and friends</p>
+          <br>
+
+          <h4 ">Applications And Hands-on</h4>
+          <p style='margin-bottom: 20px;'>I have built numerous applications and websites. Below are few of them</p>
+          <p><strong>Liri Bot</strong></p>
+          <p class="education__para">
+            LIRI is like the iPhone's SIRI. However, while SIRI is a Speech Interpretation and
+            Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI
+            is a CLI application that uses Node.js to take in parameters via the command line and
+            gives you back data. This LIRI bot searches Spotify API for songs, Bands in Town for
+            concerts, and OMDB for movies.
+          </p>
+          <br />
+
+          <p><strong>bAmazon</strong></p> 
+           <p class="education__para">
+              Bamazon is a command-line application for an Amazon-like storefront. It
+              utilizes Node.js & ​MySQL​ to process customer orders, update inventory, and
+              track individual product sales and total profits (by department). At the
+              manager level, users can check low inventory, add to inventories, and add new
+              products. At the supervisor level, users can view products, overhead costs,
+              and total profits by
+          </p>
+          <br />
+          <p><strong>​<a class="app__link" href="https://soliperso.github.io/TrainSchedule/">Train Schedule 
+            &#8811;</a></strong></p> 
+          <p class="education__para">
+              The application incorporates a firebase to host arrivals and departures data.
+              My app retrieves and manipulates the data via MomentJS providing
+              up-to-date information about various trains, namely their arrival, times and
+              how many minutes left to arrive at different stations. 
+            <br/>
+<br/>
+            <p><strong>Clicky Game</strong></p> 
+            <p class="education__para">
+              It is a ​ React web application that tests a user’s memory. In order to achieve
+              this tak, I had to use some technology mainly ​ReactJS​ and ​Javascript​
+            </p>
+            <br/>
+
+          <h4>Education</h4>
+          <p><strong>UC Berkeley</strong>, Berkeley - Certificate</p>
+          <p class="date"><em>May 2019 - August 2019</em></p>
+          <p class="education__para">
+            Attended UC Berkeley Bootcamp where I learned the MERN stack technology that allowed me
+            to build fully functional web applications
+          </p>
+          <br />
+
+          <p><strong>Berkeley City College</strong>, Berkeley - Certificate</p>
+          <p class="date"><em>September 2016 - January 2017</em></p>
+          <p class="education__para">
+            During this period of time, I learned the fundamentals of web development, across
+            platform web applications(HTML, CSS and JavaScript) and the basics of computer science
+            in (C++ class)
+          </p>
+          <br />
+          <p><strong>Berkeley Adult School</strong>, Berkeley - Certificate</p>
+          <p class="date"><em>September 2014 - March 2015</em></p>
+          <p class="education__para">
+            Attending this school, I have earned three certificates (Word, Excel and PowerPoint)
+          </p>
+          <br />
+          <p><strong>Mouloud Mammeri University</strong>, Algeria - Master's Degree</p>
+          <p class="date"><em>September 2005 - March 2008</em></p>
+          <p class="education__para">
+            Taught linguistics and helped students who were preparing their thesis.
+          </p>
+          <br /><br />
+          <h4>Languages</h4>
+          <p>Berber, Arabic, French and English</p>
+        </section>
+        <section>
+          <address>
+            <p>1851 Trinity Ave</p>
+            <p>Walnut Creek, CA 94596</p>
+            <a href="tel:(510)459-7608">(510)459-7608</a>
+            <a href="mailto:chah762002@yahoo.fr">chah762002@yahoo.fr</a>
+          </address>
+
+          <h4>Skills</h4>
+          <p>
+            HTML, CSS, Bootstrap, <br />
+            JavaScript, ReactJs, NextJs, Material UI
+          </p>
+          <p class="note"><em>Certificates available upon request</em></p>
+        </section>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <footer>
+      <div class="grid">
+        <p class="copyright">Copyright &copy; <span id="year">2021</span> Ed Chebli</p>
+        <ul class="social">
+          <a href=https://www.linkedin.com/in/ed-chebli-56618332/" target="_blank">
+            <ion-icon class="social" name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://github.com/Soliperso" target="_blank">
+            <ion-icon class="social" name="logo-github"></ion-icon>
+          </a>
+          <a href="https://codepen.io/your-work/" target="_blank">
+            <ion-icon class="social" name="logo-codepen"></ion-icon>
+          </a>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
